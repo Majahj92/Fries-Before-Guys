@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFDFA;
+}
+
+main {
+    margin: 100px 200px 200px 200px;
+}
+
+.friesbeforeguys {
+    max-width: 100%;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+h1.top-right {
+    background-color: none;
+    font-size: 130px;
+    text-transform: uppercase;
+    font-family: futura-pt, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #f1da59;
+    text-align: right;
+    width: 680px;
+    line-height: 120px;
+    background: -webkit-linear-gradient(right, #b0c2da,#f8cd76, #f8cd76);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.firsttext {
+    text-align: center;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+
+body {
+    background-color: #FFFDFA;
+  }
+  
+.tickets {
+    width: 80%;
+    margin: 0 auto;
+}
+  
+.tickets p {
+    margin: 0; padding: 0;
+}
+  
+.tickets tr {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin: 2rem 0;
+}
+  
+.tickets__date {
+    text-transform: uppercase;
+}
+  
+.tickets__buy button {
+    padding: 0.7rem 1.7rem;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+    border-color: black;
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    background-color: #FFFDFA;
+    letter-spacing: 0.5px;
+}
+  
+.tickets__buy button:hover {
+    cursor: pointer;
+    background-color: #f1da59;
+    color: black;
+}
+
+.tickets__date {
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.tickets__time
+{
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #696660;
+}
+
+.tickets__venue {
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    padding-left: 40px;
+}
+
+.topdate {
+    margin-top: 90px;
+}
+
+.colors {
+    position: absolute;
+    top: 1100px;
+    width: 101vw;
+    z-index: -1;
+    left: -10px;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 100px;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+
+a:hover {
+    background: -webkit-linear-gradient(right, #b0c2da,#f8cd76, #f8cd76);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.spacing {
+    margin-left: 25px;
+    margin-right: 25px;
+}
